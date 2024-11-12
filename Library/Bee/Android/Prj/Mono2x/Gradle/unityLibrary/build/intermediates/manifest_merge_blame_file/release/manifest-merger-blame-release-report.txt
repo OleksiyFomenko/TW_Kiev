@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-52
+12-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-49
+13    <uses-feature
+13-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-63
+15        android:required="false" />
+15-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:64-88
+16    <uses-feature
+16-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-88
+17        android:name="android.hardware.touchscreen"
+17-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-60
+18        android:required="false" />
+18-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:61-85
+19    <uses-feature
+19-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-71
+21        android:required="false" />
+21-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:72-96
+22    <uses-feature
+22-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-80
+24        android:required="false" />
+24-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:81-105
+25
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-75
+26-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:20-72
+27
+28    <application android:extractNativeLibs="true" >
+28-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-25:17
+28-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+29        <activity
+29-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+30            android:name="com.unity3d.player.UnityPlayerActivity"
+30-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+31            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+31-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+32            android:exported="true"
+32-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:433-456
+33            android:hardwareAccelerated="false"
+33-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+34            android:launchMode="singleTask"
+34-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+35            android:resizeableActivity="false"
+35-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+36            android:screenOrientation="portrait"
+36-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+37            android:theme="@style/UnityThemeSelector" >
+37-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+38            <intent-filter>
+38-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+39-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+41-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+42            </intent-filter>
+43
+44            <meta-data
+44-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+45                android:name="unityplayer.UnityActivity"
+45-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+46                android:value="true" />
+46-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+47            <meta-data
+47-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+48                android:name="android.notch_support"
+48-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+49                android:value="true" />
+49-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+50        </activity>
+51
+52        <meta-data
+52-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+53            android:name="unity.splash-mode"
+53-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+54            android:value="0" />
+54-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+55        <meta-data
+55-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+56            android:name="unity.splash-enable"
+56-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+57            android:value="True" />
+57-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+58        <meta-data
+58-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+59            android:name="unity.launch-fullscreen"
+59-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+60            android:value="True" />
+60-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+61        <meta-data
+61-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+62            android:name="unity.allow-resizable-window"
+62-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+63            android:value="False" />
+63-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+64        <meta-data
+64-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+65            android:name="notch.config"
+65-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+66            android:value="portrait|landscape" />
+66-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+67        <meta-data
+67-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+68            android:name="unity.auto-report-fully-drawn"
+68-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-60
+69            android:value="true" />
+69-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:61-81
+70
+71        <receiver
+71-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-113
+72            android:name="com.unity.androidnotifications.UnityNotificationManager"
+72-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-85
+73            android:exported="false" />
+73-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:86-110
+74        <receiver
+74-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-23:16
+75            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+75-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:15-99
+76            android:enabled="false"
+76-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:100-123
+77            android:exported="false" >
+77-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:124-148
+78            <intent-filter>
+78-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:7-22:23
+79                <action android:name="android.intent.action.BOOT_COMPLETED" />
+79-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:9-71
+79-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-68
+80            </intent-filter>
+81        </receiver>
+82
+83        <meta-data
+83-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-99
+84            android:name="com.unity.androidnotifications.exact_scheduling"
+84-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-78
+85            android:value="0" />
+85-->G:\unity projects\TW_Kiev\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:79-96
+86    </application>
+87
+88</manifest>
